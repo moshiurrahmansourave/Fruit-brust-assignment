@@ -17,13 +17,15 @@
         .font-lato {
             font-family: 'Lato', sans-serif;
         }
-        .overlay{
+
+        .overlay {
             position: relative;
 
         }
-        .overlay::after{
-            content:" ";
-            width:100%;
+
+        .overlay::after {
+            content: " ";
+            width: 100%;
             height: 100%;
             position: absolute;
             top: 0;
@@ -74,94 +76,97 @@
                         <input type="text" placeholder="Search here "
                             class="text-black input border rounded-full lg:w-96" />
 
-                            <img class="absolute right-5 top-3 " src="images/icon/sarce.jpg" alt="">
+                        <img class="absolute right-5 top-3 " src="images/icon/sarce.jpg" alt="">
                     </div>
                 </div>
 
             </div>
         </nav>
         <!-- Carousel slider part -->
-       <div class="relative">
-        <div class="h-[500px] lg:h-[690px] carousel w-full">
-            <div style="background-image: url(./images/banner1.png); background-size: cover; background-position: center; background-repeat: no-repeat;" id="slide1" class="carousel-item relative w-full overlay">
-              <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
-                <h1 class="text-3xl lg:text-6xl text-center font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                <p >We supply highly quality organic products</p>
-                <button class="btn btn-error">shop now</button>
-              </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
+        <div class="relative">
+            <div class="h-[500px] lg:h-[690px] carousel w-full">
+                <div style="background-image: url(./images/banner1.png); background-size: cover; background-position: center; background-repeat: no-repeat;"
+                    id="slide1" class="carousel-item relative w-full overlay">
+                    <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
+                        <h1 class="text-3xl lg:text-6xl text-center font-extrabold">Exotic tastes at your <br> doorstep
+                        </h1>
+                        <p>We supply highly quality organic products</p>
+                        <button class="btn text-white btn-error">shop now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
 
-            </div> 
+                </div>
 
-            <div id="slide2" class="carousel-item relative w-full overlay" style="background-image: url(./images/banner2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                
-                <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
-                    <h1 class="text-3xl lg:text-6xl  font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                    <p >We supply highly quality organic products</p>
-                    <button class="btn btn-error">shop now</button>
-                  </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
+                <div id="slide2" class="carousel-item relative w-full overlay"
+                    style="background-image: url(./images/banner2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
+                        <h1 class="text-3xl lg:text-6xl text-center font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                        <p>We supply highly quality organic products</p>
+                        <button class="btn text-white btn-error">shop now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
 
-            <div id="slide3" class="carousel-item relative w-full overlay"  style="background-image: url(./images/banner3.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                <div id="slide3" class="carousel-item relative w-full overlay"
+                    style="background-image: url(./images/banner3.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
+                        <h1 class="text-3xl lg:text-6xl text-center font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                        <p>We supply highly quality organic products</p>
+                        <button class="btn text-white btn-error">shop now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
 
-              <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
-                    <h1 class="text-3xl lg:text-6xl  font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                    <p >We supply highly quality organic products</p>
-                    <button class="btn btn-error">shop now</button>
-                  </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-
-            <div id="slide4" class="carousel-item relative w-full overlay"  style="background-image: url(./images/banner4.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
-
-              <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
-                    <h1 class="text-3xl lg:text-6xl  font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                    <p >We supply highly quality organic products</p>
-                    <button class="btn btn-error">shop now</button>
-                  </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+                <div id="slide4" class="carousel-item relative w-full overlay"
+                    style="background-image: url(./images/banner4.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="text-white z-20 space-y-4 flex justify-center items-center flex-col mx-auto">
+                        <h1 class="text-3xl lg:text-6xl text-center font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                        <p>We supply highly quality organic products</p>
+                        <button class="btn text-white btn-error">shop now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
             </div>
-          </div>
             <!-- bonuse part -->
-        <div class="px-32  absolute -bottom-20 left-24 ">
-            <div class=" hidden lg:flex flex-row gap-20 text-center justify-center bg-slate-100 drop-shadow-md py-6 px-10">
-                <div>
-                    <img class="transition-all duration-300  hover:scale-110" src="images/fruit1.png" alt="">
-                    <p>Grape</p>
-                </div>
-                <div>
-                    <img class="transition-all duration-300  hover:scale-110" src="images/fruit2.png" alt="">
-                    <p>Orange</p>
-                </div>
-                <div>
-                    <img class="transition-all duration-300  hover:scale-110" src="images/fruit3.png" alt="">
-                    <p>Mango</p>
-                </div>
-                <div>
-                    <img class="transition-all duration-300  hover:scale-110" src="images/fruit4.png" alt="">
-                    <p>Strawberry</p>
-                </div>
-                <div>
-                    <img class="transition-all duration-300  hover:scale-110" src="images/fruit5.png" alt="">
-                    <p>pomegranate</p>
+            <div class="px-32  absolute -bottom-20 left-24 ">
+                <div
+                    class=" hidden lg:flex flex-row gap-20 text-center justify-center bg-slate-100 drop-shadow-md py-6 px-10">
+                    <div>
+                        <img class="transition-all duration-300  hover:scale-110" src="images/fruit1.png" alt="">
+                        <p>Grape</p>
+                    </div>
+                    <div>
+                        <img class="transition-all duration-300  hover:scale-110" src="images/fruit2.png" alt="">
+                        <p>Orange</p>
+                    </div>
+                    <div>
+                        <img class="transition-all duration-300  hover:scale-110" src="images/fruit3.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div>
+                        <img class="transition-all duration-300  hover:scale-110" src="images/fruit4.png" alt="">
+                        <p>Strawberry</p>
+                    </div>
+                    <div>
+                        <img class="transition-all duration-300  hover:scale-110" src="images/fruit5.png" alt="">
+                        <p>pomegranate</p>
+                    </div>
                 </div>
             </div>
         </div>
-       </div>
-      
+
     </header>
     <main class="container mx-auto">
         <!-- deal of the day section -->
@@ -209,7 +214,6 @@
 
             <!--all the fruit card  -->
             <div class="grid gap-6  lg:grid-cols-4 md:px-2 md:grid-cols-2 px-3 sm:grid-cols-1 mb-11">
-
                 <!-- first card -->
                 <div
                     class="card transition-all duration-300  hover:scale-105  bg-base-100 hover:bg-[#1212121a] p-9 border border-gray-200">
@@ -235,8 +239,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- secound card -->
 
+                <!-- secound card -->
                 <div
                     class="card transition-all duration-300  hover:scale-105  bg-base-100 hover:bg-[#1212121a] p-9 border border-gray-200">
                     <figure><img class="w-36" src="images/fruit7.png" alt="Shoes" /></figure>
@@ -260,8 +264,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- third card -->
 
+                <!-- third card -->
                 <div
                     class="card transition-all duration-300  hover:scale-105  bg-base-100 hover:bg-[#1212121a] p-9 border border-gray-200">
                     <figure><img class="w-36" src="images/fruit8.png" alt="Shoes" /></figure>
@@ -285,8 +289,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- fourth card -->
 
+                <!-- fourth card -->
                 <div
                     class="card transition-all duration-300  hover:scale-105 bg-base-100 hover:bg-[#1212121a] p-9 border border-gray-200">
                     <figure><img class="w-36" src="images/fruit9.png" alt="Shoes" /></figure>
@@ -420,11 +424,9 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!-- third section / why choose us-->
-
         <section class="my-36">
             <div class="text-center mb-16">
                 <h2 class="text-5xl font-bold mb-3">Why Choose Us</h2>
@@ -436,7 +438,6 @@
                 <div class="lg:hidden flex justify-center ">
                     <img src="images/whychoose1.png" alt="">
                 </div>
-
                 <!-- left site text -->
                 <div class="text-center lg:text-left">
                     <div class=" gap-4 ">
@@ -471,7 +472,6 @@
                             the freedom of <br> selecting something that truly suits their preferences and needs
                         </p>
                     </div>
-
                 </div>
 
                 <div class=" hidden lg:flex transition-all duration-300  hover:scale-105 justify-center ">
@@ -480,15 +480,12 @@
 
                 <!-- right site  text -->
                 <div class="text-right">
-
                     <div class=" gap-4 ">
                         <div class="flex flex-col-reverse lg:flex-row lg:justify-end items-center gap-2">
                             <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Integrated Supplier</h3>
-
                             <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300"
                                     src="images/icon/fruit 1.jpg" alt=""></div>
                         </div>
-
                         <p class="mb-11 text-center lg:text-right"> The goal is to provide convenience, increased
                             efficiency, <br> and improved customer
                         </p>
@@ -538,13 +535,11 @@
                         <button class="btn bg-slate-600 border rounded-full text-white text-xl font-medium">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
         </section>
 
         <!-- Open the modal using ID.showModal() method -->
-
         <div class="open the modal using id">
 
             <dialog id="my_modal_1" class="modal">
