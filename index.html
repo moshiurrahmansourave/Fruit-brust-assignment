@@ -73,7 +73,7 @@
                         <button class="btn text-lg font-bold bg-red-500">Shop Now</button>
                     </div>
                 </div>
-                <img src="images/banner1.png" class="w-full" />
+                <img src="images/banner1.png" class="w-full " />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
@@ -88,7 +88,7 @@
                         <button class="btn text-lg font-bold bg-red-500">Shop Now</button>
                     </div>
                 </div>
-                <img src="images/banner2.png" class="w-full" />
+                <img src="images/banner2.png" class="w-full " />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
@@ -153,6 +153,7 @@
     </header>
     <main class="container mx-auto">
         <!-- deal of the day section -->
+
         <section>
             <div class="flex flex-col lg:flex-row lg:justify-between mt-36 mb-10">
                 <div class="mb-6 lg:mb-0 text-center lg:text-left">
@@ -160,28 +161,44 @@
                     <p class="text-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of
                         classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="flex justify-center">
-                    <ul class="flex gap-8 text-center text-4xl font-bold">
-                        <li>29 :
-                            <p class="text-lg mt-2">days</p>
-                        </li>
-                        <li>15 :
-                            <p class="text-lg mt-2">Hours</p>
-                        </li>
-                        <li>25 :
-                            <p class="text-lg mt-2">Minutes</p>
-                        </li>
-                        <li>08 :
-                            <p class="text-lg mt-2">Seconds</p>
-                        </li>
-                    </ul>
+                <div class="flex justify-center ">
+
+                    <div class="grid grid-flow-col  text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:29;"></span>
+                            </span>
+                            days
+                        </div>
+                        <img class="w-8 mt-3" src="images/icon/colon.png" alt="">
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <img class="w-8 mt-3" src="images/icon/colon.png" alt="">
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <img class="w-8 mt-3" src="images/icon/colon.png" alt="">
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:47;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!--all the fruit card  -->
             <div class="grid gap-6  lg:grid-cols-4 md:px-2 md:grid-cols-2 px-3 sm:grid-cols-1 mb-11">
-                <!-- first card -->
 
+                <!-- first card -->
                 <div class="card   bg-base-100 p-9 border border-gray-200">
                     <figure><img class="w-28" src="images/fruit6.png" alt="Shoes" /></figure>
                     <div class="card-body">
@@ -282,121 +299,240 @@
                 <button class="btn bg-red-500 text-white">Shop All</button>
             </div>
         </section>
-        <!-- section noumber 2 -->
 
+        <!-- section noumber 2 bonus -->
         <section>
-           
-            <div class=" text-center absolute  text-white lg:ml-96 mt-9">
-                <h2 class="text-5xl font-medium">Meet the team section</h2>
-                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-               </div>
-          
-           <!-- cards -->
-            <div class="grid absolute gap-4  lg:grid-cols-4 md:px-2 md:grid-cols-2  sm:grid-cols-1 ml-60 mt-72">
-                <!-- first member -->
-                <div class="card   text-white">
-                    <figure><img class="" src="images/member1.png" alt="member1" /></figure>
-                    <div class="card-body">
-                        <h2 class="text-center font-semibold text-2xl">
-                            Awlad Hossain
-                        </h2>
-
-                        <div class="text-center mt-2">
-                            <h4 class="text-lg font-semibold ">Fruits Expert</h4>
-                        </div>
-                        <div class="icons flex justify-center gap-2">
-                            <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg" alt=""></a>
-                        </div>
+            <div class="my-16 hero w-full" style="background-image: url('./images/banner1.png');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class=" text-center text-white">
+                    <div class="my-14">
+                        <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                        <p class="">Contrary to popular belief, is not simply random text. It has roots in a piece
+                            of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
-                </div>
-                <!-- secound member -->
-                <div class="card   text-white">
-                    <figure><img class="" src="images/member2.png" alt="member1" /></figure>
-                    <div class="card-body">
-                        <h2 class="text-center font-semibold text-2xl">
-                            Awlad Hossain
-                        </h2>
 
-                        <div class="text-center mt-2">
-                            <h4 class="text-lg font-semibold ">Fruits Expert</h4>
-                        </div>
-                        <div class="icons flex justify-center gap-2">
-                            <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- third member -->
-                <div class="card   text-white">
-                    <figure><img class="" src="images/member3.png" alt="member1" /></figure>
-                    <div class="card-body">
-                        <h2 class="text-center font-semibold text-2xl">
-                            Awlad Hossain
-                        </h2>
+                    <div class="lg:flex gap-11 justify-around lg:mb-20">
 
-                        <div class="text-center mt-2">
-                            <h4 class="text-lg font-semibold ">Fruits Expert</h4>
-                        </div>
-                        <div class="icons flex justify-center gap-2">
-                            <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- forth member -->
-                <div class="card   text-white">
-                    <figure><img class="" src="images/member4.png" alt="member1" /></figure>
-                    <div class="card-body">
-                        <h2 class="text-center font-semibold text-2xl">
-                            Awlad Hossain
-                        </h2>
+                        <!-- first member -->
+                        <div class="card   text-white">
+                            <figure><img class="" src="images/member1.png" alt="member1" /></figure>
+                            <div class="card-body">
+                                <h2 class="text-center font-semibold text-2xl">
+                                    Awlad Hossain
+                                </h2>
 
-                        <div class="text-center mt-2">
-                            <h4 class="text-lg font-semibold ">Fruits Expert</h4>
+                                <div class="text-center mt-2">
+                                    <h4 class="text-lg font-semibold ">Fruits Expert</h4>
+                                </div>
+                                <div class="icons flex justify-center gap-2">
+                                    <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg"
+                                            alt=""></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="icons flex justify-center gap-2">
-                            <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg" alt=""></a>
-                            <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg" alt=""></a>
+
+                        <!-- secoud member -->
+                        <div class="card   text-white">
+                            <figure><img class="" src="images/member2.png" alt="member1" /></figure>
+                            <div class="card-body">
+                                <h2 class="text-center font-semibold text-2xl">
+                                    Safia Chowdhury
+                                </h2>
+
+                                <div class="text-center mt-2">
+                                    <h4 class="text-lg font-semibold ">Fruits Expert</h4>
+                                </div>
+                                <div class="icons flex justify-center gap-2">
+                                    <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- third member -->
+                        <div class="card   text-white">
+                            <figure><img class="" src="images/member3.png" alt="member1" /></figure>
+                            <div class="card-body">
+                                <h2 class="text-center font-semibold text-2xl">
+                                    Rokib Hossain
+                                </h2>
+
+                                <div class="text-center mt-2">
+                                    <h4 class="text-lg font-semibold ">Fruits Expert</h4>
+                                </div>
+                                <div class="icons flex justify-center gap-2">
+                                    <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- forth member -->
+                        <div class="card   text-white">
+                            <figure><img class="" src="images/member4.png" alt="member1" /></figure>
+                            <div class="card-body">
+                                <h2 class="text-center font-semibold text-2xl">
+                                    Chaity
+                                </h2>
+
+                                <div class="text-center mt-2">
+                                    <h4 class="text-lg font-semibold ">Fruits Expert</h4>
+                                </div>
+                                <div class="icons flex justify-center gap-2">
+                                    <a href=""> <img class="border rounded-full" src="images/icon/facebook 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/twitter (1) 1.jpg"
+                                            alt=""></a>
+                                    <a href=""> <img class="border rounded-full" src="images/icon/linkedin 1.jpg"
+                                            alt=""></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-           
-            <div>
-                <img class="w-full  my-36" src="images/banner1.png" alt="">
-            </div>
+
         </section>
-    </main>
-    
-        <footer class="footer footer-center p-10 bg-[#121212] text-white text-base-content rounded pt-20">
-            <div class="lg:navbar-center ">
-                <img src="images/logo.png" alt="">
-                <a class="btn btn-ghost normal-case lg:text-4xl lg:font-bold">Fruit Burst</a>
+
+        <!-- third section -->
+
+        <section class="my-36">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-3">Why Choose Us</h2>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                    Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="grid lg:grid-cols-3">
+
+                <div class="lg:hidden flex justify-center ">
+                    <img src="images/whychoose1.png" alt="">
+                </div>
+
+                <!-- left site text -->
+                <div class="text-center lg:text-left">
+                    <div class=" gap-4 ">
+                        <div class="flex flex-col lg:flex-row lg:ju items-center gap-2">
+                            <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300 "
+                                    src="images/icon/group 1.jpg" alt=""></div>
+                            <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Dedicated Team</h3>
+                        </div>
+                        <p class="mb-11 text-center lg:text-left">Professional employees are there for you to pick
+                            <br> the most amazing and fresh fruits.
+                        </p>
+                    </div>
+
+                    <div class=" gap-4 ">
+                        <div class="flex flex-col lg:flex-row lg:ju items-center gap-2">
+                            <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300"
+                                    src="images/icon/love 1.jpg" alt=""></div>
+                            <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Dedicated Team</h3>
+                        </div>
+                        <p class="mb-11 text-center lg:text-left">Professional employees are there for you to pick
+                            <br> the most amazing and fresh fruits.
+                        </p>
+                    </div>
+
+                    <div class=" gap-4 ">
+                        <div class="flex flex-col lg:flex-row lg:ju items-center gap-2">
+                            <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300"
+                                    src="images/icon/gift-box 1.jpg" alt=""></div>
+                            <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Dedicated Team</h3>
+                        </div>
+                        <p class="mb-11 text-center lg:text-left">Professional employees are there for you to pick
+                            <br> the most amazing and fresh fruits.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class=" hidden lg:flex justify-center ">
+                    <img src="images/whychoose1.png" alt="">
+                </div>
+
+                <!-- right site  text -->
+                <div class="text-right">
+
+                    <div class=" gap-4 ">
+                        <div class="flex flex-col-reverse lg:flex-row lg:justify-end items-center gap-2">
+                            <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Dedicated Team</h3>
+
+                            <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300"
+                                    src="images/icon/fruit 1.jpg" alt=""></div>
+                        </div>
+
+                        <p class="mb-11 text-center lg:text-right">Professional employees are there for you to pick
+                            <br> the most amazing and fresh fruits.
+                        </p>
+                    </div>
+
+                    <div class=" gap-4 ">
+                        <div class="flex flex-col-reverse lg:flex-row lg:justify-end items-center gap-2">
+                            <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Dedicated Team</h3>
+
+                            <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300"
+                                    src="images/icon/ice-cream 1.jpg" alt=""></div>
+                        </div>
+
+                        <p class="mb-11 text-center lg:text-right">Professional employees are there for you to pick
+                            <br> the most amazing and fresh fruits.
+                        </p>
+                    </div>
+
+                    <div class=" gap-4 ">
+                        <div class="flex flex-col-reverse lg:flex-row lg:justify-end items-center gap-2">
+                            <h3 class="text-2xl font-extrabold border-b-2 my-2 pb-3">Dedicated Team</h3>
+
+                            <div><img class="border-2 p-4 bg-[#1212121a] rounded-full border-red-300"
+                                    src="images/icon/like 1.jpg" alt=""></div>
+                        </div>
+
+                        <p class="mb-11 text-center lg:text-right">Professional employees are there for you to pick
+                            <br> the most amazing and fresh fruits.
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-10"> 
-              <a class="link link-hover">Home</a> 
-              <a class="link link-hover">About Us</a> 
-              <a class="link link-hover">Shop</a>
-              <a class="link link-hover">All Fruits</a> 
-              <a class="link link-hover">Support</a> 
-              <a class="link link-hover">My Account</a>
-            </div> 
-            <div>
-              <div class="grid  lg:grid-cols-6 grid-cols-3 gap-4 mt-14 mb-20">
+        </section>
+
+    </main>
+
+    <footer class="footer footer-center p-10 bg-[#121212] text-white text-base-content rounded pt-20">
+        <div class="lg:navbar-center ">
+            <img src="images/logo.png" alt="">
+            <a class="btn btn-ghost normal-case lg:text-4xl lg:font-bold">Fruit Burst</a>
+        </div>
+
+        <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-10">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover">Support</a>
+            <a class="link link-hover">My Account</a>
+        </div>
+        <div>
+            <div class="grid  lg:grid-cols-6 grid-cols-3 gap-4 mt-14 mb-20">
                 <a href=""> <img src="images/icon/twitter 1.png" alt=""></a>
                 <a href=""><img src="images/icon/facebook 2.png" alt=""></a>
                 <a href=""><img class=" border rounded-lg" src="images/icon/youtub.jpg" alt=""></a>
                 <a href=""><img src="images/icon/linkedin 2.png" alt=""></a>
                 <a href=""><img src="images/icon/instagram 1.png" alt=""></a>
                 <a href=""><img src="images/icon/apple 1.png" alt=""></a>
-              </div>
-            </div> 
+            </div>
+        </div>
 
     </footer>
 </body>
